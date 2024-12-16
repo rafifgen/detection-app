@@ -24,12 +24,6 @@ def main_screen():
     title.pack(pady=10)
 
     # Main Menu Buttons
-    btn_jalan = tk.Button(root, text="Deteksi Jalan Berlubang", width=30, command=lambda: show_message("Deteksi Jalan Berlubang"))
-    btn_jalan.pack(pady=10)
-    
-    btn_buah = tk.Button(root, text="Deteksi Buah Busuk", width=30, command=lambda: show_message("Deteksi Buah Busuk"))
-    btn_buah.pack(pady=10)
-    
     btn_manusia = tk.Button(root, text="Deteksi Manusia", width=30, command=start_human_detection)
     btn_manusia.pack(pady=10)
 
